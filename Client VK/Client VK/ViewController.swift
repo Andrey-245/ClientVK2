@@ -58,6 +58,15 @@ class ViewController: UIViewController {
     }
 
     
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        return identifier == "NewVC"
+        if identifier == "NewVC"{
+            
+            return true
+        }else {
+            return false
+        }
+    }
    
 
 //    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
